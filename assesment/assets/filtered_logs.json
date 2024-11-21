@@ -1,0 +1,276 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1732190921.029][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND InitSession {\"capabilities\": {\"firstMatch\": [ {\"browserName\": \"chrome\",\"goog:chromeOptions\": {\"args\": [ \"--remote-allow-origins=*\" ],\"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\"extensions\": [  ]},\"goog:loggingPrefs\": {\"browser\": \"ALL\",\"driver\": \"ALL\"}} ]}}",
+            "RESPONSE": "[1732190921.951][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE InitSession {\"capabilities\": {\"acceptInsecureCerts\": false,\"browserName\": \"chrome\",\"browserVersion\": \"130.0.6723.59\",\"chrome\": {\"chromedriverVersion\": \"129.0.6668.100 (cf58cba358d31ce285c1970a79a9411d0fb381a5-refs/branch-heads/6668@{#1704})\",\"userDataDir\": \"C:\\\\Users\\\\AKSHAY~1\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir6124_1826413074\"},\"fedcm:accounts\": true,\"goog:chromeOptions\": {\"debuggerAddress\": \"localhost:50209\"},\"networkConnectionEnabled\": false,\"pageLoadStrategy\": \"normal\",\"platformName\": \"windows\",\"proxy\": {},\"setWindowRect\": true,\"strictFileInteractability\": false,\"timeouts\": {\"implicit\": 0,\"pageLoad\": 300000,\"script\": 30000},\"unhandledPromptBehavior\": \"dismiss and notify\",\"webauthn:extension:credBlob\": true,\"webauthn:extension:largeBlob\": true,\"webauthn:extension:minPinLength\": true,\"webauthn:extension:prf\": true,\"webauthn:virtualAuthenticators\": true},\"sessionId\": \"935a5aaf34ddc7d590612bc05e665c9a\"}"
+        },
+        {
+            "COMMAND": "[1732190922.397][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND MaximizeWindow {}",
+            "RESPONSE": "[1732190922.467][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE MaximizeWindow {\"height\": 688,\"width\": 1296,\"x\": -8,\"y\": -8}"
+        },
+        {
+            "COMMAND": "[1732190922.488][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190926.721][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190926.739][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@aria-label='Guide']\"}",
+            "RESPONSE": "[1732190927.136][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.D652E8F0C04BB309D5EB0CDEB5B6FFB5.e.20\"}"
+        },
+        {
+            "COMMAND": "[1732190927.182][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.D652E8F0C04BB309D5EB0CDEB5B6FFB5.e.20\"}",
+            "RESPONSE": "[1732190927.919][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190927.938][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND GetUrl {}",
+            "RESPONSE": "[1732190928.092][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE GetUrl \"https://www.youtube.com/\""
+        },
+        {
+            "COMMAND": "[1732190928.123][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"link text\",\"value\": \"About\"}",
+            "RESPONSE": "[1732190928.341][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.D652E8F0C04BB309D5EB0CDEB5B6FFB5.e.23\"}"
+        },
+        {
+            "COMMAND": "[1732190928.389][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.D652E8F0C04BB309D5EB0CDEB5B6FFB5.e.23\"}",
+            "RESPONSE": "[1732190929.387][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190929.391][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"tag name\",\"value\": \"body\"}",
+            "RESPONSE": "[1732190929.425][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.0B564DB0C59C6D4670D75D2426D676F2.e.5\"}"
+        },
+        {
+            "COMMAND": "[1732190929.449][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND GetElementText {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.0B564DB0C59C6D4670D75D2426D676F2.e.5\"}",
+            "RESPONSE": "[1732190929.500][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE GetElementText \"How YouTube Works\\nCreators\\nCulture & Trends\\nBlog\\nAbout YouTube\\nOur mission is to give everyone a voice and show them the world.\\nWe believe that everyone deserves to have a voice, and that the world...\""
+        },
+        {
+            "COMMAND": "[1732190929.508][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190931.622][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190931.632][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@aria-label='Guide']\"}",
+            "RESPONSE": "[1732190931.974][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.826186CD6645CA2A4DB8422CB324EE53.e.13\"}"
+        },
+        {
+            "COMMAND": "[1732190931.990][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.826186CD6645CA2A4DB8422CB324EE53.e.13\"}",
+            "RESPONSE": "[1732190932.642][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190932.648][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[@title='Movies']\"}",
+            "RESPONSE": "[1732190932.750][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.826186CD6645CA2A4DB8422CB324EE53.e.20\"}"
+        },
+        {
+            "COMMAND": "[1732190932.821][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.826186CD6645CA2A4DB8422CB324EE53.e.20\"}",
+            "RESPONSE": "[1732190932.917][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190932.928][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//button[@aria-label='Next']\"}",
+            "RESPONSE": "[1732190932.947][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//button[@aria-label='Next']\"}(Session info: chrome=130.0.6723.59)"
+        },
+        {
+            "COMMAND": "[1732190933.471][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Top selling')]/ancestor::div[@id='dismissible']//button[@aria-label='Next']\"}",
+            "RESPONSE": "[1732190933.623][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.826186CD6645CA2A4DB8422CB324EE53.e.40\"}"
+        },
+        {
+            "COMMAND": "[1732190933.670][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElements {\"using\": \"css selector\",\"value\": \".movie-element\"}",
+            "RESPONSE": "[1732190933.684][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElements [  ]"
+        },
+        {
+            "COMMAND": "[1732190933.688][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190935.191][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190935.197][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@aria-label='Guide']\"}",
+            "RESPONSE": "[1732190935.376][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.24EEB163E08A106B63FC666BC6095464.e.56\"}"
+        },
+        {
+            "COMMAND": "[1732190935.380][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.24EEB163E08A106B63FC666BC6095464.e.56\"}",
+            "RESPONSE": "[1732190935.803][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190935.807][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//a[@title='Music']\"}",
+            "RESPONSE": "[1732190935.898][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.24EEB163E08A106B63FC666BC6095464.e.62\"}"
+        },
+        {
+            "COMMAND": "[1732190935.938][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.24EEB163E08A106B63FC666BC6095464.e.62\"}",
+            "RESPONSE": "[1732190936.066][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190936.071][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Biggest Hits')]/ancestor::div[@id='dismissible']//button[@aria-label='Next']\"}",
+            "RESPONSE": "[1732190936.090][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//span[@id='title' and contains(text(),'Biggest Hits')]/ancestor::div[@id='dismissible']//button[@aria-label='Next']\"}(Session info: chrome=130.0.6723.59)"
+        },
+        {
+            "COMMAND": "[1732190936.604][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Biggest Hits')]/ancestor::div[@id='dismissible']//button[@aria-label='Next']\"}",
+            "RESPONSE": "[1732190936.834][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.24EEB163E08A106B63FC666BC6095464.e.85\"}"
+        },
+        {
+            "COMMAND": "[1732190937.164][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElements {\"using\": \"css selector\",\"value\": \".playlist-section .playlist\"}",
+            "RESPONSE": "[1732190937.191][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElements [  ]"
+        },
+        {
+            "COMMAND": "[1732190937.198][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190938.707][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190938.713][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@aria-label='Guide']\"}",
+            "RESPONSE": "[1732190938.875][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.334B862E9EEBAB51A576DD647A344C30.e.101\"}"
+        },
+        {
+            "COMMAND": "[1732190938.879][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.334B862E9EEBAB51A576DD647A344C30.e.101\"}",
+            "RESPONSE": "[1732190939.323][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190939.327][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"link text\",\"value\": \"News\"}",
+            "RESPONSE": "[1732190939.502][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.334B862E9EEBAB51A576DD647A344C30.e.107\"}"
+        },
+        {
+            "COMMAND": "[1732190939.546][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.334B862E9EEBAB51A576DD647A344C30.e.107\"}",
+            "RESPONSE": "[1732190939.696][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190939.707][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElements {\"using\": \"xpath\",\"value\": \"//span[@id='title' and contains(text(),'Latest news posts')]//ancestor::div[@id='dismissible']\"}",
+            "RESPONSE": "[1732190939.780][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElements [  ]"
+        },
+        {
+            "COMMAND": "[1732190939.790][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190941.421][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190941.423][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1732190941.449][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.8F5D4FE0889AAD1B1A7D89231D6A504C.e.114\"}"
+        },
+        {
+            "COMMAND": "[1732190941.453][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@id='search-icon-legacy']\"}",
+            "RESPONSE": "[1732190941.638][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.8F5D4FE0889AAD1B1A7D89231D6A504C.e.119\"}"
+        },
+        {
+            "COMMAND": "[1732190941.641][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClearElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.8F5D4FE0889AAD1B1A7D89231D6A504C.e.114\"}",
+            "RESPONSE": "[1732190941.708][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClearElement"
+        },
+        {
+            "COMMAND": "[1732190941.713][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND TypeElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.8F5D4FE0889AAD1B1A7D89231D6A504C.e.114\",\"text\": \"Movies\",\"value\": [ \"M\", \"o\", \"v\", \"i\", \"e\", \"s\" ]}",
+            "RESPONSE": "[1732190941.873][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1732190941.876][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.8F5D4FE0889AAD1B1A7D89231D6A504C.e.119\"}",
+            "RESPONSE": "[1732190941.990][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190942.010][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"#contents\"}",
+            "RESPONSE": "[1732190942.122][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.8F5D4FE0889AAD1B1A7D89231D6A504C.e.129\"}"
+        },
+        {
+            "COMMAND": "[1732190942.148][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190943.858][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190943.863][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1732190944.068][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.5E6C44E36AF1B2DC2F4926CE85B5B3B8.e.135\"}"
+        },
+        {
+            "COMMAND": "[1732190944.080][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@id='search-icon-legacy']\"}",
+            "RESPONSE": "[1732190944.172][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.5E6C44E36AF1B2DC2F4926CE85B5B3B8.e.140\"}"
+        },
+        {
+            "COMMAND": "[1732190944.175][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClearElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.5E6C44E36AF1B2DC2F4926CE85B5B3B8.e.135\"}",
+            "RESPONSE": "[1732190944.238][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClearElement"
+        },
+        {
+            "COMMAND": "[1732190944.242][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND TypeElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.5E6C44E36AF1B2DC2F4926CE85B5B3B8.e.135\",\"text\": \"Music\",\"value\": [ \"M\", \"u\", \"s\", \"i\", \"c\" ]}",
+            "RESPONSE": "[1732190944.401][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1732190944.404][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.5E6C44E36AF1B2DC2F4926CE85B5B3B8.e.140\"}",
+            "RESPONSE": "[1732190944.525][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190944.559][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"#contents\"}",
+            "RESPONSE": "[1732190944.667][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.5E6C44E36AF1B2DC2F4926CE85B5B3B8.e.151\"}"
+        },
+        {
+            "COMMAND": "[1732190944.683][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190946.124][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190946.127][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1732190946.278][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.2F834E51C722EBF2D1ACFF1BC17C930C.e.157\"}"
+        },
+        {
+            "COMMAND": "[1732190946.281][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@id='search-icon-legacy']\"}",
+            "RESPONSE": "[1732190946.448][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.2F834E51C722EBF2D1ACFF1BC17C930C.e.162\"}"
+        },
+        {
+            "COMMAND": "[1732190946.452][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClearElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.2F834E51C722EBF2D1ACFF1BC17C930C.e.157\"}",
+            "RESPONSE": "[1732190946.760][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClearElement"
+        },
+        {
+            "COMMAND": "[1732190946.763][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND TypeElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.2F834E51C722EBF2D1ACFF1BC17C930C.e.157\",\"text\": \"Games\",\"value\": [ \"G\", \"a\", \"m\", \"e\", \"s\" ]}",
+            "RESPONSE": "[1732190946.833][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1732190946.836][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.2F834E51C722EBF2D1ACFF1BC17C930C.e.162\"}",
+            "RESPONSE": "[1732190947.040][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190947.048][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"#contents\"}",
+            "RESPONSE": "[1732190947.209][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.2F834E51C722EBF2D1ACFF1BC17C930C.e.172\"}"
+        },
+        {
+            "COMMAND": "[1732190947.283][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190949.305][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190949.308][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1732190949.519][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.39616CA3F77F51861FD16F1046F893DC.e.178\"}"
+        },
+        {
+            "COMMAND": "[1732190949.523][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@id='search-icon-legacy']\"}",
+            "RESPONSE": "[1732190949.603][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.39616CA3F77F51861FD16F1046F893DC.e.183\"}"
+        },
+        {
+            "COMMAND": "[1732190949.606][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClearElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.39616CA3F77F51861FD16F1046F893DC.e.178\"}",
+            "RESPONSE": "[1732190949.665][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClearElement"
+        },
+        {
+            "COMMAND": "[1732190949.668][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND TypeElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.39616CA3F77F51861FD16F1046F893DC.e.178\",\"text\": \"India\",\"value\": [ \"I\", \"n\", \"d\", \"i\", \"a\" ]}",
+            "RESPONSE": "[1732190949.856][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1732190949.859][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.39616CA3F77F51861FD16F1046F893DC.e.183\"}",
+            "RESPONSE": "[1732190950.012][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190950.033][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"#contents\"}",
+            "RESPONSE": "[1732190950.202][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.39616CA3F77F51861FD16F1046F893DC.e.193\"}"
+        },
+        {
+            "COMMAND": "[1732190950.226][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND Navigate {\"url\": \"https://www.youtube.com/\"}",
+            "RESPONSE": "[1732190952.271][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE Navigate"
+        },
+        {
+            "COMMAND": "[1732190952.275][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//input[@id='search']\"}",
+            "RESPONSE": "[1732190952.475][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.4E06FAE181F8DA837EF58AEEE5C79C48.e.199\"}"
+        },
+        {
+            "COMMAND": "[1732190952.480][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"xpath\",\"value\": \"//button[@id='search-icon-legacy']\"}",
+            "RESPONSE": "[1732190952.573][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.4E06FAE181F8DA837EF58AEEE5C79C48.e.204\"}"
+        },
+        {
+            "COMMAND": "[1732190952.576][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClearElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.4E06FAE181F8DA837EF58AEEE5C79C48.e.199\"}",
+            "RESPONSE": "[1732190952.618][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClearElement"
+        },
+        {
+            "COMMAND": "[1732190952.621][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND TypeElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.4E06FAE181F8DA837EF58AEEE5C79C48.e.199\",\"text\": \"UK\",\"value\": [ \"U\", \"K\" ]}",
+            "RESPONSE": "[1732190952.801][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE TypeElement"
+        },
+        {
+            "COMMAND": "[1732190952.804][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND ClickElement {\"id\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.4E06FAE181F8DA837EF58AEEE5C79C48.e.204\"}",
+            "RESPONSE": "[1732190952.923][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE ClickElement"
+        },
+        {
+            "COMMAND": "[1732190952.927][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] COMMAND FindElement {\"using\": \"css selector\",\"value\": \"#contents\"}",
+            "RESPONSE": "[1732190952.981][INFO]: [935a5aaf34ddc7d590612bc05e665c9a] RESPONSE FindElement {\"element-6066-11e4-a52e-4f735466cecf\": \"f.D9364675C5EE03EB2EEEABC54791C9D5.d.4E06FAE181F8DA837EF58AEEE5C79C48.e.214\"}"
+        }
+    ]
+}
